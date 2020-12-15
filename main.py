@@ -21,6 +21,17 @@ def tip_calculator():
     print("Every person has to pay: $" + str(answer))
 
 
+# Conditional
+def user_choice():
+    color = input("Red or blue? ")
+    animal = input("Cat or Dog? ")
+
+    if animal == "Cat":
+        print(f"{color} Cats do not exist")
+    else:
+        print(f"{color} Dogs do not exist")
+
+
 # Tests
 def test():
     print(10 // 3)
@@ -32,3 +43,4 @@ def test():
 string_con()
 tip_calculator()
 test()
+user_choice()
