@@ -32,6 +32,17 @@ def user_choice():
         print(f"{color} Dogs do not exist")
 
 
+# Loops
+def loop_fun():
+    for x in range(5):
+        print("Hello")
+    else:
+        print("Loop finished")
+
+    while True:
+        print("Infinity...")
+
+
 # Tests
 def test():
     print(10 // 3)
@@ -39,8 +50,13 @@ def test():
     print(10 ** 3)
 
 
+def demo():
+    my_test = "ABCD"
+
+
 # Run
-string_con()
-tip_calculator()
-test()
-user_choice()
+# string_con()
+# tip_calculator()
+# test()
+# user_choice()
+# loop_fun()
