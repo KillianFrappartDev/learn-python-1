@@ -43,6 +43,12 @@ def loop_fun():
         print("Infinity...")
 
 
+# Functions
+def test_args(*args):
+    for arg in args:
+        print(arg)
+
+
 # Tests
 def test():
     print(10 // 3)
@@ -60,3 +66,4 @@ def demo():
 # test()
 # user_choice()
 # loop_fun()
+# test_args(1, 2, 3, 4)
